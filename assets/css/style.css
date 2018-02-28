@@ -1138,7 +1138,7 @@ footer{
 	}
 	.list-gallery li, .list-testimonial li{
 		width: 50%;
-		margin: 0 0 0 0;
+		margin: 5px 0px !important;
 		float: left;
 	}
 }
@@ -1146,9 +1146,9 @@ footer{
 	.list-gallery li, .list-testimonial li{
 		height:  auto;
 		width: 100%;
-		margin: 0 0 0 0;
+		margin: 5px 0px !important;
 		float: left;
-		border: none;
-		margin-bottom: 10px;
+		border: 1px solid rgba(0,0,0,0.2);
+		padding: 0 0 16px 0px;
 	}
 }
